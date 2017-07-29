@@ -1,0 +1,17 @@
+.user {
+    display: flex;
+    justify-content: space-between;    
+    padding-bottom: 5px;
+    border-bottom: 5px solid rgba(44, 62, 80,1.0);
+}
+
+.user span {    
+     color: rgba(192, 57, 43,1.0);
+}
+.user button {
+    margin: auto 0;    
+    background: rgba(192, 57, 43,1.0);
+    color: white; /* Белые буквы */ 
+    
+}
+

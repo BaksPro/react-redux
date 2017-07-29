@@ -1,0 +1,28 @@
+.userForm {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    border: 5px inset rgba(41, 128, 185,1.0);
+    width: 50%;
+    width: 80%; 
+}
+
+
+.userForm input:last-child{
+    margin: auto 0px;
+    height: 50%;
+    width: 20%;
+    background:rgba(39, 174, 96,1.0)
+}
+
+
+.userForm input:first-child{
+    height: 40%;
+    margin: auto 0px;
+    width: 70%;
+  
+}
+
+
+
+
