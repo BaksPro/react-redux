@@ -6,16 +6,10 @@ class User extends Component {
     this.handleDeleteuser = this.handleDeleteuser.bind(this)
   }
 
- handleDeleteuser(){
-       
-
-         let id = this.props.id;
-        console.log(id);
+ handleDeleteuser(){     let id = this.props.id;
+         console.log(id);
          this.props.deleteUser(id)  ;
-         
-
-
-    }
+ }
   render(){
     
     return(

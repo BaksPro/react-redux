@@ -18,13 +18,6 @@ export default function(state = initialState, action){
             })
 
             return  newState
-        }   
-         case "SERACH_USERS": {
-            const { seachValue } = action;
-            let newState = state.filter((user)=>{
-                return user.name.includes(seachValue)
-            })
-                return  newState  
         }  
         
              

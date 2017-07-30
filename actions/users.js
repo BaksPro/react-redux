@@ -16,12 +16,3 @@ export function deleteUser(id){
     }
     return action;
 }
-
-export function seachUser(seachValue){
-    const action ={
-        type: "SERACH_USERS",
-        seachValue: seachValue        
-    }
-     return action;
-
-}
